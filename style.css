@@ -43,6 +43,18 @@ ul {
     
 }
 
+/*ERRORS*/
+.errors {
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 87%, 67%);
+}
+
+.error-input, .error-email {
+    display: none;
+}
+/*ERRORS*/
+
 /*GENERAL HOVER STATES FOR BTN AND A*/
 a:hover, .btn:hover, #btn-grad:hover {
     cursor: pointer;

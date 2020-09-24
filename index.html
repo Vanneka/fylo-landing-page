@@ -184,7 +184,7 @@
 
         <!--    FORM BEGINS HERE    -->
         <div class="form-container">
-            <form action="">
+            <form action="" id="the-form">
                 <p class="form-title">
                     Get early access today
                 </p>
@@ -194,7 +194,16 @@
                     questions, our support team would be happy to help you.
                 </p>
 
-                <input type="text" placeholder="email@example.com" class="btn">
+                <input type="text" placeholder="email@example.com" class="btn input-area">
+                <div class="errors">
+                    <small class="error error-email">
+                        Please enter a valid email
+                    </small>
+                    <small class="error error-input">
+                        Input cannot be empty
+                    </small>
+                </div>
+                
                 <button id="btn-grad" class="form-btn btn"> Get Started For Free</button>
             </form>
         </div>
@@ -251,6 +260,7 @@
     </footer>
     <!--    FOOTER ENDS HERE    -->
 </body>
+<script src="app.js"></script>
 </html>
     <!--    HEADER BEGINS HERE    -->
     <!--    HEADER ENDS HERE    -->
