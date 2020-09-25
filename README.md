@@ -2,6 +2,11 @@
 
 ![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
 
+
+### LIVE DEMO: 
+https://vanneka.github.io/fylo-landing-page/
+
+
 ## Hi There! 👋
 This is my entry for the Frontend Mentor challenge
 
@@ -18,8 +23,5 @@ The `style-guide.md` file, contains the information for the color palette and fo
 
 3. Change device size from the top of browser to test responsiveness
 
-
-### LIVE DEMO: 
-https://vanneka.github.io/fylo-landing-page/
 
 **Yay!!!** 🚀
